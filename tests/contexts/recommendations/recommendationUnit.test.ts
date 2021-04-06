@@ -1,4 +1,4 @@
-import { createRecommendationUnitCtx } from "../../../src/contexts";
+import { createRecommendationUnitCtx } from "contexts";
 
 test("creates context", () => {
     const ctx = createRecommendationUnitCtx("abc123");

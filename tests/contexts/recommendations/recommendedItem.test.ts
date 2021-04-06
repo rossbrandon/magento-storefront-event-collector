@@ -1,4 +1,4 @@
-import { createRecommendedItemCtx } from "../../../src/contexts";
+import { createRecommendedItemCtx } from "contexts";
 
 test("creates context", () => {
     const ctx = createRecommendedItemCtx("abc123", 2051);

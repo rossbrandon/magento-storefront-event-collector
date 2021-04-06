@@ -3,8 +3,9 @@
  * See COPYING.txt for license details.
  */
 
+import schemas from "schemas";
+
 import pkg from "../../package.json";
-import schemas from "../schemas";
 
 const createContext = (): TrackerContext => {
     const context = {

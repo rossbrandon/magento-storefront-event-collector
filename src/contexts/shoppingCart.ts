@@ -4,8 +4,7 @@
  */
 
 import mse from "@adobe/magento-storefront-events-sdk";
-
-import schemas from "../schemas";
+import schemas from "schemas";
 
 const createShoppingCartItems = () => {
     const shoppingCartCtx = mse.context.getShoppingCart();

@@ -1,4 +1,4 @@
-import { searchSuggestionClickHandler } from "../../../src/handlers";
+import { searchSuggestionClickHandler } from "handlers";
 
 test("sends snowplow event", () => {
     searchSuggestionClickHandler();

@@ -1,4 +1,4 @@
-import { recsRequestSentHandler } from "../../../src/handlers";
+import { recsRequestSentHandler } from "handlers";
 
 test("sends snowplow event", () => {
     recsRequestSentHandler();

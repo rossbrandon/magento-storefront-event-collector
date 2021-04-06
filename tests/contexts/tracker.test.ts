@@ -1,5 +1,6 @@
+import { createTrackerCtx } from "contexts";
+
 import pkg from "../../package.json";
-import { createTrackerCtx } from "../../src/contexts";
 
 test("creates context", () => {
     const ctx = createTrackerCtx();

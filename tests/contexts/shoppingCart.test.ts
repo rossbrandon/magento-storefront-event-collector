@@ -1,4 +1,4 @@
-import { createShoppingCartCtx } from "../../src/contexts";
+import { createShoppingCartCtx } from "contexts";
 
 test("creates context", () => {
     const ctx = createShoppingCartCtx();

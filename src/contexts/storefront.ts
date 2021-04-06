@@ -4,8 +4,7 @@
  */
 
 import mse from "@adobe/magento-storefront-events-sdk";
-
-import schemas from "../schemas";
+import schemas from "schemas";
 
 const createContext = (): StorefrontContext => {
     const storefrontInstanceCtx = mse.context.getStorefrontInstance();

@@ -4,9 +4,8 @@
  */
 
 import mse from "@adobe/magento-storefront-events-sdk";
-
-import { createRecommendationUnitCtx } from "../../contexts/recommendations";
-import { trackEvent } from "../../snowplow";
+import { createRecommendationUnitCtx } from "contexts/recommendations";
+import { trackEvent } from "snowplow";
 
 const handler = (): void => {
     const recommendationsCtx = mse.context.getRecommendations();

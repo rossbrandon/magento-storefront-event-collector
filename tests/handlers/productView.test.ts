@@ -1,4 +1,4 @@
-import { productViewHandler } from "../../src/handlers";
+import { productViewHandler } from "handlers";
 
 test("sends snowplow event", () => {
     productViewHandler();

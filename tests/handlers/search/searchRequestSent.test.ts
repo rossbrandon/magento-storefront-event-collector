@@ -1,4 +1,4 @@
-import { searchRequestSentHandler } from "../../../src/handlers";
+import { searchRequestSentHandler } from "handlers";
 
 test("sends snowplow event", () => {
     searchRequestSentHandler();

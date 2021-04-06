@@ -3,7 +3,7 @@
  * See COPYING.txt for license details.
  */
 
-import { trackEvent } from "../snowplow";
+import { trackEvent } from "snowplow";
 
 const handler = (): void => {
     trackEvent({

@@ -7,8 +7,8 @@ import {
     createSearchInputCtx,
     createSearchResultsCtx,
     createSearchResultSuggestionCtx,
-} from "../../contexts";
-import { trackEvent } from "../../snowplow";
+} from "contexts";
+import { trackEvent } from "snowplow";
 
 const handler = (): void => {
     const searchInputCtx = createSearchInputCtx();

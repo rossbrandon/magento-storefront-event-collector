@@ -1,4 +1,4 @@
-import { createMagentoExtensionCtx } from "../../src/contexts";
+import { createMagentoExtensionCtx } from "contexts";
 
 test("creates context", () => {
     const ctx = createMagentoExtensionCtx();

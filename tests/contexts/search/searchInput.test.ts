@@ -1,4 +1,4 @@
-import { createSearchInputCtx } from "../../../src/contexts";
+import { createSearchInputCtx } from "contexts";
 
 test("creates context", () => {
     const ctx = createSearchInputCtx();

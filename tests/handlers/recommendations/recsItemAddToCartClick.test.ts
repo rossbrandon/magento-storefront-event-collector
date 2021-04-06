@@ -1,4 +1,4 @@
-import { recsItemClickHandler } from "../../../src/handlers";
+import { recsItemClickHandler } from "handlers";
 
 test("sends snowplow event", () => {
     recsItemClickHandler();

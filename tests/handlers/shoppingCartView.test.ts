@@ -1,4 +1,4 @@
-import { shoppingCartViewHandler } from "../../src/handlers";
+import { shoppingCartViewHandler } from "handlers";
 
 test("sends snowplow event", () => {
     shoppingCartViewHandler();

@@ -1,4 +1,4 @@
-import { createStorefrontInstanceCtx } from "../../src/contexts";
+import { createStorefrontInstanceCtx } from "contexts";
 
 test("creates context", () => {
     const ctx = createStorefrontInstanceCtx();

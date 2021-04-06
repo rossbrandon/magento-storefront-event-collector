@@ -3,8 +3,8 @@
  * See COPYING.txt for license details.
  */
 
-import { createProductCtx } from "../contexts";
-import { trackEvent } from "../snowplow";
+import { createProductCtx } from "contexts";
+import { trackEvent } from "snowplow";
 
 const handler = (): void => {
     const productCtx = createProductCtx();

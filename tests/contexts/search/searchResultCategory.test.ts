@@ -1,4 +1,4 @@
-import { createSearchResultCategoryCtx } from "../../../src/contexts";
+import { createSearchResultCategoryCtx } from "contexts";
 
 test("creates context", () => {
     const ctx = createSearchResultCategoryCtx();

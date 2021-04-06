@@ -1,4 +1,4 @@
-import { createProductCtx } from "../../src/contexts";
+import { createProductCtx } from "contexts";
 
 test("creates context", () => {
     const ctx = createProductCtx();

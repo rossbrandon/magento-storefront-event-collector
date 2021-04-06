@@ -1,4 +1,4 @@
-import { recsUnitViewHandler } from "../../../src/handlers";
+import { recsUnitViewHandler } from "handlers";
 
 test("sends snowplow event", () => {
     recsUnitViewHandler();

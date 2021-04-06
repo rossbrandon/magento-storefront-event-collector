@@ -1,4 +1,4 @@
-import { recsResponseReceivedHandler } from "../../../src/handlers";
+import { recsResponseReceivedHandler } from "handlers";
 
 test("sends snowplow event", () => {
     recsResponseReceivedHandler();

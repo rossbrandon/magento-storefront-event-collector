@@ -1,4 +1,4 @@
-import { recsItemAddToCartClickHandler } from "../../../src/handlers";
+import { recsItemAddToCartClickHandler } from "handlers";
 
 test("sends snowplow event", () => {
     recsItemAddToCartClickHandler();

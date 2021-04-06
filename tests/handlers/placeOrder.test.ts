@@ -1,4 +1,4 @@
-import { placeOrderHandler } from "../../src/handlers";
+import { placeOrderHandler } from "handlers";
 
 test("sends snowplow event", () => {
     placeOrderHandler();

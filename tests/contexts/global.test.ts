@@ -1,5 +1,6 @@
+import { createGlobalCtx } from "contexts";
+
 import pkg from "../../package.json";
-import { createGlobalCtx } from "../../src/contexts";
 
 test("creates context", () => {
     const ctx = createGlobalCtx();
